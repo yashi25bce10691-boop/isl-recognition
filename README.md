@@ -1,4 +1,4 @@
-# ✋ ISL Number Recognition
+# ✋ ISL Gesture Recognition
 
 A real-time Indian Sign Language (ISL) number recognition system using Machine Learning.
 
