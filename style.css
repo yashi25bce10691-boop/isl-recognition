@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg,rgb(0, 0, 0));
+    color: #F49DC8;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Heading */
+.main-heading {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+#webcam-container {
+    margin: 20px auto;
+    border: 4px solid gold;
+    border-radius: 15px;
+    width: fit-content;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+}
+
+#output-box {
+    background: rgba(255, 255, 255, 0.179);
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 100px;
+}
+
+#label-container {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.controls {
+    margin-top: 25px;
+}
+
+button {
+    padding: 12px 25px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: gold;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: orange;
+}
+.intro {
+    max-width: 600px;
+    margin: 15px auto;
+    font-size: 18px;
+    color: #ddd;
+}
+/* HERO SECTION */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px; /* 👈 THIS CONTROLS SPACE */
+    padding: 45px;
+}
+
+/* TEXT SIDE */
+.hero-text {
+    max-width: 500px;
+}
+
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* PARAGRAPH */
+.hero-text p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: rgb(211, 223, 227);
+    font-family: "Datatype", monosapce; 
+    letter-spacing: 2px;
+}
+
+/* IMAGE */
+.hero-image img {
+    width: 350px;
+    height: 355px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.7);
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background: rgb(179, 42, 102);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* FEATURES CENTERED */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px 0;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+.features li {
+    margin: 25px 0;
+}
+
+/* TAGLINE */
+.tagline {
+    color: #F49DC8;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 65px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+
+.features span {
+    background: rgb(155, 13, 72);
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.main-heading {
+    animation: fadeIn 1.5s ease-in-out;
+    font-family: 'Orbitron', sans-serif;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.highlight {
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #f49dc8;
+    letter-spacing: 5px;
+}

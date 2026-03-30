@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ISL Recognition</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.20.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1><i><b>Real-time Sign Language Detection</b></i></h1>
+    
+    <!-- Webcam -->
+    <div id="webcam-container"></div>
+
+    <!-- Output -->
+    <div id="output-box">
+        <h2 id="label-container">Click "Start Detection" to begin</h2>
+    </div>
+
+    <!-- Buttons -->
+    <div class="controls">
+        <button onclick="startDetection()">Start Detection</button>
+        <button onclick="stopCamera()">Stop Detection</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
