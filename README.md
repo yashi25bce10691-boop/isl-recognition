@@ -1,6 +1,6 @@
 # ✋ ISL Gesture Recognition
 
-A real-time Indian Sign Language (ISL) number recognition system using Machine Learning.
+A real-time Indian Sign Language (ISL) recognition system using Machine Learning.
 
 ---
 
@@ -52,6 +52,13 @@ A real-time Indian Sign Language (ISL) number recognition system using Machine L
    - **“Detecting…”** while analyzing  
    - **“Recognized: [number] ✋”** when stable  
 4. Voice output announces the result  
+
+---
+
+## ⚠️ Limitations
+- The model may sometimes produce incorrect predictions.  
+- For better accuracy, ensure a clear background and proper lighting.  
+- The model can be further improved by training with a larger and more diverse dataset.
 
 ---
 
